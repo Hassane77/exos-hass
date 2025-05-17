@@ -1,4 +1,5 @@
 # creation du fichier source
+#!/bin/bash
 echo"
     time_t t = time(null); #permet d'optenir l'heure actuelle
     strict tm *tm_info = localtime(&t); #permet de convertir en heure local
