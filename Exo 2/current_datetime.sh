@@ -9,4 +9,4 @@ int man(){
     strtime(buffer,sizeof(buffer),"%y-%m-%d %H:%M:%S"); #permet de formate ladate au bon format
     print("date actuelle : %s",buffer); #permet d'afficher la date
     return 0;
-}' > current_datetime.c
+}'
